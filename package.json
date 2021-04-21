@@ -1,11 +1,19 @@
 {
-  "name": "portfolio2021",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "shota_portfolio",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  },
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Shotamax95/Portfolio_Shota.git"
@@ -16,10 +24,12 @@
     "url": "https://github.com/Shotamax95/Portfolio_Shota/issues"
   },
   "homepage": "https://github.com/Shotamax95/Portfolio_Shota#readme",
-  "dependencies": {
-    "bootstrap": "^4.6.0",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.6.0",
-    "popper.js": "^1.16.1"
-  }
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express": "^4.17.11",
+    "@types/morgan": "^1.9.2",
+    "@types/node": "^14.14.41"
+  },
+  "description": ""
 }
