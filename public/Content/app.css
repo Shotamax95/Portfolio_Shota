@@ -1,1 +1,123 @@
 /* Custom CSS goes here */
+/* body */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #343a40;
+}
+/* NavBar */
+
+
+/* Header */
+
+
+/* title */
+.section-title {
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+    /* font-family: 'Salsa', cursive; */
+}
+
+/* main */
+main {
+    margin-top: 55px;
+}
+
+/* Home */
+/* name animation */
+.top-wrapper {
+    text-align: center;
+    padding-top: 30px;
+}
+.top-wrapper h1 {
+    color: white;
+    font-size: 64px;
+    letter-spacing: 3px;
+}
+.top-wrapper span {
+    /* opacity: 0; */
+    transition: all 1s ease;
+    transform: translateY(50px);
+    display: inline-block;
+}
+.top-wrapper span.fade{
+    opacity: 1;
+    transform: translateY(0px);
+    color: #f38e70;
+}
+.heading {
+    color: white;
+    padding: 25px 0 20px 0;
+    text-align: center;
+}
+.heading h2 {
+    font-weight: normal;
+}
+
+.pic-face {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    width: 400px;
+}
+
+/* Projects */
+.bold-title {
+    font-weight: bold;
+}
+.card {
+    background: #d5eff0;
+}
+.card-text {
+    text-align: left;
+}
+
+/* skills */
+
+/* Footer */
+.footer {
+    height: 50px;
+}
+
+
+/* mid screen */
+@media (max-width: 991px) {
+
+    .container {
+        padding-bottom: 100px;
+    }    
+    /* skills display and margin between them */
+    .col {
+       margin: 10px 0;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 575px) {
+
+    /* home */
+    .pic-face {
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        width: 300px;
+    }
+    
+}
+
+
+#insta {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

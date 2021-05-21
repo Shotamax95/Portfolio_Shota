@@ -1,0 +1,41 @@
+<%- include ../partials/header.ejs %>
+<%- include ../partials/main_nav.ejs %>
+
+<!-- Main Section -->
+<main class="container">  
+    <h1 class="section-title text-center">- <%= title %> -</h1>
+      <br>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+        <div class="col">
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title bold-title border-bottom border-dark">
+                        <i class="fab fa-lg fa-github"></i> Github
+                    </h5>
+                    <p class="card-text">Here is my Github account. There are some projects for practice which I have leraned or started learing new languages, but I don't get domain and hosting for almost all my project. Feel free to see and follow my account. Some my personal projects are coming soon!
+                    </p>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <a href="https://github.com/Shotamax95" class="btn btn-primary" target="_blank">My Github</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">            
+            <div class="card text-center h-100">
+                <div class="card-body">
+                    <h5 class="card-title bold-title border-bottom border-dark">
+                        <i class="far fa-lg fa-file-alt"></i> Survey Web Application
+                    </h5>
+                    <p class="card-text">This is a group project which I engaged when I was in college. This survey application was made by Angular, node.js (Express), and Mongodb Atlas. My roll was project manager and frontend developer. I usually managed all the tasks with Trello, and held a weekly meeting. We used 7 weeks to complete this project.
+                    </p>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <a href="https://comp229-group-project-3c.herokuapp.com/home" class="btn btn-primary" target="_blank">Survey APP</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<%- include ../partials/bottom_nav.ejs %>  
+<%- include ../partials/footer.ejs %>

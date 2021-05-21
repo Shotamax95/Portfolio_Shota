@@ -1,11 +1,39 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href="Content/app.css" />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<%- include partials/header.ejs %>
+<%- include partials/main_nav.ejs %>
+
+  <!-- main section -->
+<main class="container">
+  <div class="top-wrapper">
+    <h1 class="name">Shota&nbsp;Ito</h1>
+      <div class="heading">
+          <h2>Frontend Developer</h2>
+      </div>
+  </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4 reverse">
+      <div class="p-2 col d-flex align-items-center justify-content-center flex-md-column flex-sm-row">
+        <div class=" bg-transparent border-0 mb-md-3 mx-sm-3 mx-3">
+          <a href="" class="" target="_blank">
+            <i class="fab fa-3x fa-instagram-square" id="insta"></i>
+          </a>
+        </div>
+        <div class=" bg-transparent border-0 mb-md-3 mx-sm-3 mx-3">
+          <a href="" class="" target="_blank">
+            <i class="fab fa-3x fa-linkedin" style="color:#0072b1;"></i>
+          </a>
+        </div>
+        <div class=" bg-transparent border-0 mb-md-3 mx-sm-3 mx-xs-3 mx-3">
+          <a href="" class="" target="_blank"> 
+            <i class="fab fa-3x fa-github-square" style="color: white;"></i>
+          </a>
+        </div>
+      </div> 
+      <div class="p-2 col d-flex align-items-center justify-content-center p-2">
+        <div class="my-img">
+          <img src="./Assets/images/myImg.jpg" class="pic-face" alt="Shota's image">
+        </div>
+      </div>
+    </div>
+</main>
+<%- include partials/bottom_nav.ejs %>  
+<%- include partials/footer.ejs %>
+
