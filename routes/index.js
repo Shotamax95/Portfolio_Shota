@@ -11,9 +11,9 @@ router.get('/home', function(req, res, next) {
 });
 
 /* GET about page. */
-router.get('/about', function(req, res, next) {
-  res.render('content/about', { title: 'About' });
-});
+// router.get('/about', function(req, res, next) {
+//   res.render('content/about', { title: 'About' });
+// });
 
 /* GET projects page. */
 router.get('/projects', function(req, res, next) {
@@ -24,5 +24,11 @@ router.get('/projects', function(req, res, next) {
 router.get('/skills', function(req, res, next) {
   res.render('content/skills', { title: 'Skills' });
 });
+
+// router.get('*', function(req, res, next) {
+//   res.render('error', { title: 'error' });
+// });
+
+
 
 module.exports = router;

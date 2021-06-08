@@ -4,35 +4,40 @@
   <!-- main section -->
 <main class="container">
   <div class="top-wrapper">
-    <h1 class="name">Shota&nbsp;Ito</h1>
+    <h1 class="name"><span class="iam">I'm</span>&nbsp;Shota</h1>
       <div class="heading">
-          <h2>Frontend Developer</h2>
+          <h2>Front-End Developer</h2>
       </div>
   </div>
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4 reverse">
-      <div class="p-2 col d-flex align-items-center justify-content-center flex-md-column flex-sm-row">
-        <div class=" bg-transparent border-0 mb-md-3 mx-sm-3 mx-3">
-          <a href="" class="" target="_blank">
-            <i class="fab fa-3x fa-instagram-square" id="insta"></i>
-          </a>
+    <div class="row row-cols-md-2 row-cols-lg-2 g-4 reverse align-items-center"> 
+      <div class="intro col px-4">
+        <div class="d-block p-2">
+          <p>I am Shota Ito from Japan but at this moment I reside in Toronto, Canada. In April 2021, I graduated from Centennial College and earned my Software Engineering Technician diploma. I am very passionate about learning new things specifically in technology. At this moment, I am using my free time to learn more about React Javascript framework. </p>
         </div>
-        <div class=" bg-transparent border-0 mb-md-3 mx-sm-3 mx-3">
-          <a href="" class="" target="_blank">
-            <i class="fab fa-3x fa-linkedin" style="color:#0072b1;"></i>
+        <div class="snsIcon d-block p-2 text-center">
+          <a href="https://instagram.com/shota_110_" target="_blank">
+            <i class="fab fa-4x fa-instagram-square" id="insta" style="color:#ffffff;"></i>
           </a>
-        </div>
-        <div class=" bg-transparent border-0 mb-md-3 mx-sm-3 mx-xs-3 mx-3">
-          <a href="" class="" target="_blank"> 
-            <i class="fab fa-3x fa-github-square" style="color: white;"></i>
+          <a href="https://www.linkedin.com/in/shota-ito-3b8463210" target="_blank" class="mx-lg-3 mx-md-3 mx-sm-3 mx-3">
+            <i class="fab fa-4x fa-linkedin" style="color:white;"></i>
           </a>
-        </div>
-      </div> 
-      <div class="p-2 col d-flex align-items-center justify-content-center p-2">
+          <a href="https://github.com/Shotamax95" target="_blank">  
+            <i class="fab fa-4x fa-github-square" style="color: white;"></i>
+          </a>
+        </div> 
+      </div>
+      <div class="col d-flex align-items-center justify-content-center p-2">
         <div class="my-img">
           <img src="./Assets/images/myImg.jpg" class="pic-face" alt="Shota's image">
         </div>
       </div>
     </div>
+    <!-- <div>
+      <a href="/about" class="btn btn-primary">About Me</a>
+      <a href="/projects" class="btn btn-primary">Projects</a>
+      <a href="/skills" class="btn btn-primary">Skills</a>
+    </div> -->
+
 </main>
 <%- include partials/bottom_nav.ejs %>  
 <%- include partials/footer.ejs %>
