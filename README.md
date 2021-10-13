@@ -1,13 +1,21 @@
-# Portfolio_Shota
+# Portfolio
+## Front-end
+* Ejs
+* CSS
+* JavaScript
 
-# Frontend
-Ejs, CSS, JavaScript
+## Back-end
+* node.js
+* Express
 
-# Backend
-node.js, Express
+## Contents 
+* Home
+* Projects
+* Skills
 
-# Smartphone Screen Image
-![Screenshot (234)](https://user-images.githubusercontent.com/59264454/123890660-957dd080-d925-11eb-967f-12be9cb5632a.png)
+## Smartphone Screen Image
+<img src="https://user-images.githubusercontent.com/59264454/137190307-22cdb2f9-8eb1-4f0c-9343-bfa2e263bcca.png">
 
-# Laptop Screen Image
-![Screenshot (219)](https://user-images.githubusercontent.com/59264454/123890736-c2ca7e80-d925-11eb-9270-51c0dba0ab3d.png)
+
+## Laptop Screen Image
+<img src="https://user-images.githubusercontent.com/59264454/137190314-250b73b1-8009-4488-8dc1-07c02daa9e7b.png">
