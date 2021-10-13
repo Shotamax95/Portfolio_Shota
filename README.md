@@ -3,6 +3,7 @@ https://portfolio-shota-ito-2021.herokuapp.com/
 ## Front-end
 * Ejs
 * CSS
+* Bootstrap
 * JavaScript
 
 ## Back-end
